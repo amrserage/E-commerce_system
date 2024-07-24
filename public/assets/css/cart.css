@@ -1,0 +1,322 @@
+body {
+    background-color: #EFF2F4;
+}
+.cardText{
+    padding: 0 45px;
+}
+.cardText h1 {
+    font-weight: 500;
+    line-height: 48px;
+}
+.cardText p{
+    font-weight: 300;
+    color: #777373;
+    line-height: 30px;
+}
+
+.card-payment {
+    display: flex;
+    width: 100%;
+}
+.card-payment .items{
+    padding: 20px;
+    width: 75%;
+    margin: 30px 0;
+}
+
+.card-payment .items .item{
+    display: flex;
+}
+.card-payment .items .details {
+    display: flex;
+}
+.card-payment .items .item .img {
+    width: 20%;
+    overflow: hidden;
+}
+.card-payment .items .item .img img {
+    width: 100%;
+}
+.card-payment .items .details {
+    padding: 0 20px;
+}
+.card-payment .items .details h4 {
+    width: 80%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-payment .items .details h3 {
+    color: red;
+    font-size: 19px;
+    font-weight: 500;
+}
+.Payment {
+    width: 25%;
+    height: 100vh;
+    margin: 0 20px;
+}
+.Payment  .PaymentCard {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 3px #39536F78 ;
+    margin: auto;
+}
+.Payment  .PaymentCard h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.Payment  .PaymentCard .txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Payment  .PaymentCard .txt h2{
+    color: #9F9F9F;
+    font-size: 18px;
+}
+.Payment  .PaymentCard .txt h3 {
+    font-size: 18px;
+}
+.Payment  .btn {
+    width: 100%;
+    margin: 20px 0;
+}
+.Payment  .btn button {
+    border: none;
+    padding: 5px 40px;
+    background-color: #0695FF;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+}
+.Payment  .btn button:hover{
+    background-color: red;
+}body {
+    background-color: #EFF2F4;
+}
+.cardText{
+    padding: 0 45px;
+}
+.cardText h1 {
+    font-weight: 500;
+    line-height: 48px;
+}
+.cardText p{
+    font-weight: 300;
+    color: #777373;
+    line-height: 30px;
+}
+
+.card-payment {
+    display: flex;
+    width: 100%;
+    padding: 40px;
+}
+.card-payment .items{
+    padding: 20px;
+    width: 75%;
+}
+.card-payment .items .photo {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.card-payment .items .item{
+    display: flex;
+}
+.card-payment .items .details .qtr {
+    margin-top: 35px;
+}
+.card-payment .items .details .qtr input {
+    width: 50px;
+    text-align: center;
+}
+.card-payment .items .details .txt{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.card-payment .items .item .img {
+    width: 20%;
+    overflow: hidden;
+}
+.card-payment .items .item .img img {
+    width: 100%;
+}
+.card-payment .items .details {
+    padding: 0 20px;
+}
+.card-payment .items .details h4 {
+    width: 80%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-payment .items .details h3 {
+    color: red;
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.Payment {
+    width: 25%;
+    height: 100vh;
+    margin: 0 20px;
+}
+.Payment  .PaymentCard {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 3px #39536F78 ;
+    margin: auto;
+}
+.Payment  .PaymentCard h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.Payment  .PaymentCard .txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Payment  .PaymentCard .txt h2{
+    color: #9F9F9F;
+    font-size: 18px;
+}
+.Payment  .PaymentCard .txt h3 {
+    font-size: 18px;
+}
+.Payment  .btn {
+    width: 100%;
+    margin: 20px 0;
+}
+/* .Payment  .btn  a{
+    border: none;
+    padding: 10px 50px;
+    background-color: #0695FF;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+} */
+.Payment  .btn button:hover{
+    background-color: red;
+}
+.title-payment a {
+    font-size: 20px;
+    line-height: 26.4px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.title-payment {
+    margin-bottom: 0px;
+    padding: 10px;
+}
+.Shipping {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+.Shipping .info h2 {
+    color: #18ACFE;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 38.4px;
+    margin-bottom: 20px;
+}
+.Shipping .info h4 {
+    font-weight: 400;
+    line-height: 40.8px;
+}
+.Shipping .info label {
+    color: #9F9F9F;
+    font-weight: 400;
+    line-height: 28.8px;
+    margin-bottom: 10px;
+}
+.Shipping .info input {
+    width: 800px;
+    border: 1px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #9F9F9F;
+    outline: none;
+    box-shadow: 0px 0.5px #9F9F9F;
+}
+
+.Shipping .info .Contact {
+    margin-bottom: 20px;
+}
+.Shipping .info .Address {
+    display: flex;
+}
+
+.Shipping .info .Address input {
+    width: 390px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.Shipping .info .Country input {
+    margin-bottom: 20px;
+}
+.Shipping .info .Country button {
+    background-color: #0695FF;
+    color: white;
+    width: 377px;
+    height: 68px;
+    border: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s ;
+}
+.Shipping .info .Country button:hover {
+    background-color: red;
+}
+.Payment {
+    margin-left: 50px;
+}
+.Payment-Summary {
+    overflow: hidden;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 2px 2px #39536F78;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.Payment-Summary h4 {
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28.8px;
+    
+} 
+.Payment-Summary h5 {
+    font-size: 17px;
+}
+.Payment-Summary div {
+    display: flex;
+    justify-content: space-between;
+}
+.Productss {
+    overflow: hidden;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 2px 2px #39536F78;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.Productss h5 {
+    font-size: 17px;
+}
+.Productss p {
+    font-size: 10px;
+    color: #9F9F9F;
+}
+.Productss a img {
+    width: 80%;
+    margin-bottom: 20px;
+}

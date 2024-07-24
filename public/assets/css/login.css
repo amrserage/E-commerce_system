@@ -1,0 +1,118 @@
+.content-log{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.content-log .login{
+    width: 50%;
+    margin: 0 120px;
+    transition: 0.3 ease-in-out;
+} 
+.content-log .login .text{
+    margin: 30px 0;
+}
+.content-log .login .text h1 {
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.content-log .login .text p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 200px;
+    letter-spacing: 1px;
+}
+.content-log .login .user {
+    margin: 25px 0;
+}
+.content-log .login .user h6{
+    font-size: 18px;
+    font-weight: 200px;
+    letter-spacing: 1px;
+}
+.content-log .login .user input {
+    padding: 10px 80px;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #B0B3B9; 
+    transition: 0.5s ease-in-out; 
+}
+.content-log .login .user input:focus{
+    border: 1px solid #6e7a92;
+}
+.content-log .login .lostpass a {
+    font-size: 17px;
+    position: relative;
+    left: 60%;
+}
+.content-log .login .lostpass button {
+    padding: 12px 150px;
+    margin: 0 100px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    background: #266DA6;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    width: 70%;
+    text-transform: uppercase;
+    transition: 0.2s ease-in-out;
+}
+.content-log .login .lostpass button:hover {
+    background-color: #4e6275;
+}
+
+.content-log .login .sign {
+    display: flex;
+    margin: 25px 0;
+}
+.content-log .login .sign p , a {
+    letter-spacing: 1px;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin: 4px;
+}
+
+.content-log .img img{
+    width: 90%;
+    
+}
+
+.content-log .sign {
+    margin-top: -20px;
+}
+.content-log .sign .text h1 {
+    font-size: 40px;    
+}
+.content-log .sign .lostpass button {
+    font-size: 17px;
+    width: 90%;
+    padding: 12px 100px;
+    margin: auto 25px;
+}
+.content-log .sign .user p {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-top: 12px;
+    color: #2F2F2F;
+}
+.content-log .sign .user img {
+    width: 3.5%;
+    margin-top: -5px;
+}
+.content-log .rest {
+    margin-top: 90px;
+    opacity: 0;
+}

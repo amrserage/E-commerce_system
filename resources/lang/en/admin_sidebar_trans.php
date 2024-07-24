@@ -1,0 +1,9 @@
+<?php
+return[
+'Dashboard'=>'Dashboard',
+'categories'=>'categories',
+'products'=>'products',
+'orders'=>'Orders',
+'slider'=>'slider',
+'users'=>'users'
+];
